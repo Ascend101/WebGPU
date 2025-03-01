@@ -1,0 +1,16 @@
+{
+  "name": "01",
+  "version": "1.0.0",
+  "description": "discovering node",
+  "main": "index.js",
+  "scripts": {
+    "start" : "npm run install-missing-dependencies && run serve",
+    "install-missing-dependencies" : "npm i" ,
+    "serve" : "http-server"
+  },
+  "author": "alexou",
+  "license": "ISC",
+  "dependencies": {
+    "http": "^0.0.1-security"
+  }
+}
